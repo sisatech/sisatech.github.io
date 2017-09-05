@@ -8,4 +8,5 @@
 	- [Debugging](debug.md)
 - Using VCLI
 	- [Commands](uvcli.md)
+	- [Commands](vcli-usage.md)
 - [Back To Home](http://sisatech.github.io)
