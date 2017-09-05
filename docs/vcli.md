@@ -18,9 +18,9 @@ Once complete, you can test the installation with the following command. If it r
 
 Congratulations! You're ready to get to work with the Vorteil Command Line Interface!
 
-### For other Linux flavours
+### For Linux distrobutions using rpm
 
-Run the following command in order to add our Debian repository.
+Run the following command in order to add our RPM repository.
 
 		$ curl -s https://packagecloud.io/install/repositories/sisatech/vcli/script.rpm.sh | sudo bash
 
