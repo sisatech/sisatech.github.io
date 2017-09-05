@@ -13,19 +13,19 @@ milliseconds.
 ## apps
 Download and manage Vorteil applications
 
-### build
+#### build
 Build a bootable virtual disk image from a Vorteil application
 
-### configure
+#### configure
 Edit the configuration of an app (creates new version)
 
-### delete
+#### delete
 Delete an application from the local repository
 
-### export
+#### export
 Copy a package from the local repository to a file
 
-### import
+#### import
 Import a package from a file into the local repository
 
 ### info
