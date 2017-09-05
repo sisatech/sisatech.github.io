@@ -1,17 +1,17 @@
     <!-- Intro Header -->
     <header class="intro">
-        <div class="intro-body"  style="background-color: rgba(0,0,0,0.5);">
+        <div class="intro-body hidden-xs">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">{{ site.title }}</h1>
                         <div class="row">
-                                <!-- <div class="col-md-6">
-                                        <p class="intro-text" style="vertical-align: middle !important;">{{ site.description }}<br>
-                                </div> -->
                                 <div class="col-md-12" style="margin-bottom: 25px;">
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/NKjCnMLd-Rs?rel=0" frameborder="0" allowfullscreen></iframe>
                                 </div>
+                        </div>
+                        <div class="row">
+                                        <p>Easily build and provision applications as independent virtual machines for rapid deployment and immutable infrastructure.</p>
                         </div>
                         <div class="row">
                                 <a href="#about" class="btn btn-circle page-scroll">
@@ -21,5 +21,15 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="intro-body visible-xs hidden-md">
+                <div class="row" style="padding: 0 25px 0 25px;">
+                        <div class="col-sm-8 col-sm-offset-2">
+                                <h1 class="brand-heading">{{ site.title }}</h1>
+                                <div class="row">
+                                                <p>Easily build and provision applications as independent virtual machines for rapid deployment and immutable infrastructure.</p>
+                                </div>
+                        </div>
+                </div>
         </div>
     </header>
