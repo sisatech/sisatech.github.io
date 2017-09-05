@@ -8,5 +8,9 @@
 	- [Debugging](debug.md)
 - Using VCLI
 	- [Commands](uvcli.md)
-	- [apps](vcli-usage.md)
+	- [apps](apps.md)
+	- [build](build.md)
+	- [cloud](cloud.md)
+	- [config](config.md)
+	- [environments](environments.md)
 - [Back To Home](http://sisatech.github.io)
