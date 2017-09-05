@@ -126,10 +126,10 @@ a:focus {
 
 @media(max-width:766px) {
         .navbar-custom a {
-            color: #2396d8;
+            color: ##7c858e;
         }
         .navbar-custom span {
-                color: #000;
+                color: #2396d8;
         }
 
         .top-nav-collapse .container .navbar-header a span {
@@ -444,4 +444,8 @@ footer {
 .white-btn {
         color: white;
         border-color: white;
+}
+
+#navlogo {
+        margin-left: 15px;
 }
