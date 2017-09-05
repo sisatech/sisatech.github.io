@@ -17,6 +17,10 @@ If you don't already have a hypervisor installed, the following command will ins
 		sudo apt-get install qemu-kvm
 Other supported hypervisors on Linux are VMware Workstation, VMware Workstation Player, and Oracle VirtualBox
 
+***NOTE (Mac / Windows):***
+*VCLI will automatically check most default paths for VirtualBox / VMware installations.*
+*If you specified a custom installation path, please ensure that it has been added to your PATH.*
+
 ###  Mac OS X
 
 __Step 1: Install a hypervisor__
@@ -41,6 +45,7 @@ Make sure you add your respective [hypervisor location to the PATH](https://www.
 
 
 If you’re using Bash, command auto-completion will be enabled the next time you log onto your computer.
+
 
 ## Step 2 - Get a Vorteil App
 
