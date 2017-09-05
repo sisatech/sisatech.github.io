@@ -8,3 +8,4 @@
 	- [Cloud](cloud.md)
 - Troubleshooting
 	- [Debugging](debug.md)
+- [Back To Home](http://127.0.0.1:4000)
