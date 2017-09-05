@@ -148,12 +148,6 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 .intro .intro-body {
@@ -270,12 +264,18 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    /*background-color: rgba(0,0,0,0.5);*/
+    /*background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
+}
+
+#download {
+        background: rgba(0,0,0,0.5);
+        padding-top: 30px;
 }
 
 #map {
@@ -378,4 +378,46 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+
+header {
+        background: rgba(0,0,0,0.5) !important;
+}
+
+body {
+        background: url(/img/intro-bg.jpg) no-repeat bottom center fixed;
+        background-color: {{ site.color.primary-dark }};
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+}
+
+section {
+        background-color: white;
+        width: 100% !important;
+}
+
+footer {
+        background-color: white;
+        width: 100% !important;
+}
+
+#map {
+        margin: 0px !important;
+}
+
+#contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+#about {
+        padding-top: 50px;
+}
+
+.white-btn {
+        color: white;
+        border-color: white;
 }
