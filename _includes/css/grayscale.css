@@ -125,8 +125,14 @@ a:focus {
 }
 
 @media(max-width:766px) {
+
+        #navlogo {
+                margin-top: 7px !important;
+                margin-left: 15px !important;
+        }
+
         .navbar-custom a {
-            color: ##7c858e;
+            color: #7c858e;
         }
         .navbar-custom span {
                 color: #2396d8;
@@ -444,8 +450,4 @@ footer {
 .white-btn {
         color: white;
         border-color: white;
-}
-
-#navlogo {
-        margin-left: 15px;
 }
