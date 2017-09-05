@@ -1,16 +1,4 @@
-# The Vorteil Command-Line Interface
-The Vorteil Command-Line Interface (vcli) provides all of the functionality you
-need to run, build, or develop microservices and immutable infrastructure using
-Sisa-Tech Pty Ltd's Vorteil kernel.
-
-The lightweight Vorteil kernel is used to compile executable linux binaries into
-bootable virtual machine disk images. Using a unikernel inspired approach, the
-Vorteil kernel has virtually zero run-time overhead and boots up in a matter of
-milliseconds.
-
-# Commands
-
-## apps
+# apps
 Download and manage Vorteil applications
 
 #### build
@@ -28,31 +16,31 @@ Copy a package from the local repository to a file
 #### import
 Import a package from a file into the local repository
 
-### info
+#### info
 View information about an application's contents and configuration
 
-### list
+#### list
 List the contents of the local repository
 
-### pull
+#### pull
 Download a Vorteil application from a remote repository
 
-### push
+#### push
 Upload a Vorteil application to a remote repository
 
-### run
+#### run
 Launch an application in a VM on a local hypervisor
 
-### tag
+#### tag
 Tag an application version
 
-### unpack
+#### unpack
 Unpack the contents of an application package
 
-### untag
+#### untag
 Untag a tagged application version
 
-## build
+<!-- ## build
 Build a bootable virtual disk image
 
 ## cloud
@@ -92,4 +80,4 @@ Update vcli's Vorteil kernel files
 Configure Vorteil applications with 'vcfg' files
 
 ## version
-Display vcli version information
+Display vcli version information -->
