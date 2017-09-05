@@ -1,6 +1,6 @@
 # Site settings
 title: vorteil.io
-email: vorteil-io@googlegroups.com
+email: info@sisa-tech.com
 url: https://sisatech.github.io
 description: "Quickly build apps as independent, bootable virtual machines for rapid deployment and immutable infrastructure."
 
@@ -10,12 +10,12 @@ color:
   links: '#2396d8'
 
 # Footer settings
-footer: Sisatech Pty Ltd
+footer: Sisa-Tech Pty Ltd
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/vorteilos?lang=en
+    url: https://twitter.com/vorteilos
   - title: facebook
     url: https://www.facebook.com/sisatech2013/
   - title: github

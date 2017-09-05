@@ -92,8 +92,11 @@ a:focus {
     color: #FFF;
 }
 
+.top-nav-collapse .container .navbar-header a span {
+        color: #2396d8;
+}
 .top-nav-collapse .container .navbar-header a {
-        color: #000;
+        color: #777;
 }
 .top-nav-collapse .container .navbar-main-collapse a {
         color: #000;

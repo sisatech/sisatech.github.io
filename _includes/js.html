@@ -7,8 +7,26 @@
     <!-- Plugin JavaScript -->
     <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/grayscale.js" | prepend: site.baseurl }}"></script>
+
+    <script>
+    function initMap() {
+            var sisatech = {lat: -28.1207025, lng: 153.4719992};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 15,
+                    center: sisatech,
+                    disableDefaultUI: false,
+                    scrollwheel: false,
+                    draggable: false
+            });
+            var marker = new google.maps.Marker({
+                    position: sisatech,
+                    map: map
+            });
+    }
+    </script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoW6jqZoAv6DLIi62goXs1q-kn0uDjaSM&sensor=false&callback=initMap"></script>
