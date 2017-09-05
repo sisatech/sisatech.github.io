@@ -106,12 +106,12 @@ kbd {
 }
 .app-nav a.active,
 .app-nav a:hover {
-    color: #42b983;
-    color: var(--theme-color, #42b983)
+    color: #2396da;
+    color: var(--theme-color, #2396da)
 }
 .app-nav a.active {
-    border-bottom: 2px solid #42b983;
-    border-bottom: 2px solid var(--theme-color, #42b983)
+    border-bottom: 2px solid #2396da;
+    border-bottom: 2px solid var(--theme-color, #2396da)
 }
 .app-nav li {
     display: inline-block;

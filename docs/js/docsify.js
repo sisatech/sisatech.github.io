@@ -79,7 +79,7 @@ var config = merge({
   ga: '',
   mergeNavbar: false,
   formatUpdated: '',
-  externalLinkTarget: '_blank',
+  externalLinkTarget: '',
   routerModel: 'hash',
   noCompileLinks: []
 }, window.$docsify);
@@ -2768,7 +2768,7 @@ var Compiler = function Compiler (config, router) {
   this.router = router;
   this.cacheTree = {};
   this.toc = [];
-  this.linkTarget = config.externalLinkTarget || '_blank';
+  //this.linkTarget = config.externalLinkTarget || '_blank';
   this.contentBase = router.getBasePath();
 
   var renderer = this._initRenderer();
