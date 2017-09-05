@@ -6,11 +6,11 @@ description: "Quickly build apps as independent, bootable virtual machines for r
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#000000'
+  primary-dark: '#FFF'
   links: '#2396d8'
 
 # Footer settings
-footer: Your Website
+footer: Sisatech Pty Ltd
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -19,7 +19,7 @@ social:
   - title: facebook
     url: https://www.facebook.com/sisatech2013/
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://github.com/sisatech/vcli
 
 # Build settings
 markdown: kramdown

@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
+    color: #000;
     background-color: {{ site.color.primary-dark }};
 }
 
@@ -80,7 +80,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: #FFF;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -89,7 +89,14 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #FFF;
+}
+
+.top-nav-collapse .container .navbar-header a {
+        color: #000;
+}
+.top-nav-collapse .container .navbar-main-collapse a {
+        color: #000;
 }
 
 .navbar-custom .nav li.active {
