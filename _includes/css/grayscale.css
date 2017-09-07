@@ -18,6 +18,7 @@ p {
 
 html {
     width: 100%;
+    overflow-x: hidden;
     height: 100%;
 }
 
@@ -125,11 +126,17 @@ a:focus {
 }
 
 @media(max-width:766px) {
+
+        #navlogo {
+                margin-top: 7px !important;
+                margin-left: 15px !important;
+        }
+
         .navbar-custom a {
-            color: #2396d8;
+            color: #7c858e;
         }
         .navbar-custom span {
-                color: #000;
+                color: #2396d8;
         }
 
         .top-nav-collapse .container .navbar-header a span {
