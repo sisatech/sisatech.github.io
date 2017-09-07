@@ -27,6 +27,7 @@
 	- [VMWare](publish/vmware.md)
 	- [GCP](publish/gcp.md)	
 - Debugging
-	- [GDB](debug/dbg.md)
-	- [Logging](debug/log.md)
+	- [GDB](debug/gdb.md)
+	- [Mounting & Logging](debug/log.md)
+	- [FAQ](debug/faq.md)
 	
