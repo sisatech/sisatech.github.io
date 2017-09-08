@@ -22,4 +22,6 @@ vcli run
 
 Vorteil packages contain everything VCLI needs to build and start a Virtual Machine running an application on the Vorteil Kernel. The helloworld application we downloaded is designed to run a simple "Welcome to Vorteil" webpage listening on port 8888. Once your virtual machine is up and running, check if the application is working by visiting [localhost:8888](localhost:8888).
 
+![Hello World](../img/quickstart/white-background-helloworld.png)
+
 When you're finished, use 'CTRL+C' in the terminal running VCLI, or close the virtual machine manually to close the application. See the [FAQ](../debug/faq.md).
