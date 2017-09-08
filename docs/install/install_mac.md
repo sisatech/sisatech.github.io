@@ -8,7 +8,7 @@ Change the permissions of that file to make it executable and copy into a folder
 
 ```bash
 chmod 755 ~/Downloads/vcli-X.Y.Z-osx-amd64
-cp ~/Downloads/vcli-X.Y.Z-osx-amd64 /usr/local/bin/vcli
+sudo cp ~/Downloads/vcli-X.Y.Z-osx-amd64 /usr/local/bin/vcli
 ```
 
 Verify the installion worked by running a vcli command.
