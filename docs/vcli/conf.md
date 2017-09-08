@@ -37,7 +37,7 @@ The --files flag can be used to manually target one or more directories to be us
 
 ## The Configuration File
 
-The Vorteil Configuration File contains information affecting a number of aspects of a Vorteil Application, from runtime settings to Virtual Disk build instructions, as well as metadata used by management tools to describe the Package. For a detailed overview of the things that can be done in a configuration file, see [Configuration](configuration.md).
+The Vorteil Configuration File contains information affecting a number of aspects of a Vorteil Application, from runtime settings to Virtual Disk build instructions, as well as metadata used by management tools to describe the Package. For a detailed overview of the things that can be done in a configuration file, see [Configuration](vcfg.md).
 
 Once VCLI knows what binary to use, it will automatically look for a configuration file with the same filepath, but with ".vcfg" appended.
 
@@ -49,6 +49,4 @@ Any important values that remain unset after all configuration files have been p
 
 ## Interpreted Language Programs
 
-Interpreted language programs are slightly more complicated because the executable binary is actually the interpreter itself, and your program is generally an argument to it. In these cases it is important to remember to use the interpreter as the binary itself, and put the program you want to run in the filesystem directory. You will also need to adjust the configuration file to provide the interpreter with the correct arguments to launch your program. The [prepare](prepare) command is designed to simplify this process.
-
-## Dynamically Linked Libraries
+Interpreted language programs are slightly more complicated because the executable binary is actually the interpreter itself, and your program is generally an argument to it. In these cases it is important to remember to use the interpreter as the binary itself, and put the program you want to run in the filesystem directory. You will also need to adjust the configuration file to provide the interpreter with the correct arguments to launch your program. The [prepare](../lang/general?id=managing-environments) command is designed to simplify this process.
