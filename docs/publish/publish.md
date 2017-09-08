@@ -29,10 +29,38 @@ vcli build --format=vmdk --args='arg1' --var="MYENV=HELLO"
 !> Building from a package does not allow to change the artifact with parameters due to vorteil's emphasis on immutablity.
 
 # VMWare ESXi
+To deploy for a VMware environment, a valid account and license is required. Setting up a VMware environment for use with vcli is easy. To create a VMware environment, run the appropriate command. The vcli will prompt you for all required information.
+
+**Example (Create VMware Environment)**
+```vcli
+vcli cloud new MyEnvironment --platform=vmware
+```
+
+This process only has to be executed once to setup the target. After that, it can be used for all future deployments to this target. The deployment can be initialized with a simple cloud upload command. The application to deploy can be either a binary or a .vorteil package.
+
+**Example (Command and output):**
+```vcli
+vcli cloud upload MyEnvironment myapp
+
+Using config file: hugo.vcfg
+Using files: hugo.files
+Configuration Summary:
+ • Vorteil kernel 0.1.2
+ • Automatically sized virtual disk with ext2 partition
+ • 1 network card
+ • 1 virtual filesystem redirect
+Merging 1 directories
+ • hugo.files
+ 8.03 MiB / 8.03 MiB [==============================================] 100.00% 0s
+ Upload complete.
+ 10.00 MiB / 12.70 MiB [=================================>---------]  78.73% 32s
+ Template created: af811d2ddbc0438597ba4aee62c1733a
+```
+
 
 # Google Cloud
 
-For deloying to the Google Could Platform (GCP), a valid account is required. Additionally vcli needs credentials with adequate permissions to execute all required deployment commands. For this a so called service account is needed . This can be done in three simple steps after login in to [Google Cloud Platform](https://cloud.google.com/).
+For deploying to the Google Could Platform (GCP), a valid account is required. Additionally vcli needs credentials with adequate permissions to execute all required deployment commands. For this a so called service account is needed . This can be done in three simple steps after login in to [Google Cloud Platform](https://cloud.google.com/).
 
 #### 1. Go to "Service Accounts"
 
