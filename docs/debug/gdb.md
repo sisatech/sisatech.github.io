@@ -4,7 +4,7 @@
 Although the development process and debugging process should not change using vorteil.io, sometimes it might be required to debug the running application. Therefore vcli has gdb enabled, if the application runs in debug mode. 
 
 ```vcli
-vcli -d -e yourapp
+vcli run -d -e yourapp
 ```
 
 Turning on debug with the -d flag adds additional kernel output to the screen and starts the gdb server of KVM, VirtualBox or VMWare Workstation/Player and can be used like in other applications. The following script is an example for a .gdbinit file:

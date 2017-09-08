@@ -15,14 +15,8 @@
 	- [Networks](vcli/network.md)
 	- [Commands](vcli/cmds.md)
 - Language Support
-	- [Go](lang/go.md)
-	- [Node.js](lang/node.md)
-	- [Python](lang/python.md)
-	- [Java](lang/java.md)
-	- [Mono](lang/mono.md)
-	- [C#/F#](lang/dotnet.md)
-	- [Ruby](lang/ruby.md)
-	- [Generic C](lang/genric.md)
+	- [Supported Languages](lang/general.md)
+	- [Environments](/lang/general?id=managing-environments)
 - Publish
 	- [VMWare](publish/vmware.md)
 	- [GCP](publish/gcp.md)	
