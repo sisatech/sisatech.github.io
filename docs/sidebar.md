@@ -4,10 +4,10 @@
 	- [Linux](install/install_linux.md)
 	- [Mac](install/install_mac.md)
 	- [Windows](install/install_win.md)
-
 - Quickstart
-	- [Getting Started](quick/quick.md)
-
+	- [Running a Vorteil App](quick/first_run.md)
+	- [Building a Custom Package](quick/first_changes.md)
+	- [Running Vorteil Online](quick/online.md)
 - Using VCLI
 	- [First Steps](vcli/vcli.md)
 	- [Project Setup](vcli/conf.md)
