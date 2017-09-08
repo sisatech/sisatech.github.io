@@ -9,11 +9,10 @@
 	- [Building a Custom Package](quick/first_changes.md)
 	- [Running Vorteil Online](quick/online.md)
 - Using VCLI
-	- [First Steps](vcli/vcli.md)
 	- [Project Setup](vcli/conf.md)
-	- [Filesystems](vcli/fs.md)
+	- [Vorteil Configuration File](vcli/vcfg.md)
+	- [Apps Repository](vcli/apps.md)
 	- [Networks](vcli/network.md)
-	- [Commands](vcli/cmds.md)
 - Language Support
 	- [Supported Languages](lang/general.md?id=supported-languages)
 	- [Environments](/lang/general?id=managing-environments)

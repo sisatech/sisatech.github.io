@@ -73,7 +73,7 @@ Save and close the configuration file.
 vcli run helloworld
 ```
 
-VCLI isn’t just capable of running packages, it can also assemble the information it needs from unpackaged files. Use the “vcli run” command like you did before, but this time make sure to target the unpacked files, not the helloworld package from before. Try running “vcli run helloworld”, which tells VCLI to use the files within the “helloworld” directory. Once your virtual machine is up and running, check if the application is working by visiting [localhost:8888](localhost:8888).
+VCLI isn’t just capable of running packages, it can also assemble the information it needs from unpackaged files. Use the “vcli run” command like you did before, but this time make sure to target the unpacked files, not the helloworld package from before. Try running “vcli run helloworld”, which tells VCLI to use the files within the “helloworld” directory. Once your virtual machine is up and running, check if the application is working by visiting [http://localhost:8888/](http://localhost:8888/).
 
 When you're finished, use 'CTRL+C' in the terminal running VCLI, or close the virtual machine manually to close the application. See the [FAQ](../debug/faq.md).
 
