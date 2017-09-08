@@ -30,7 +30,7 @@ vcli build --format=vmdk --args='arg1' --var="MYENV=HELLO"
 
 # VMWare ESXi
 
-# Goolge Cloud
+# Google Cloud
 
 For deloying to the Google Could Platform (GCP), a valid account is required. Additionally vcli needs credentials with adequate permissions to execute all required deployment commands. For this a so called service account is needed . This can be done in three simple steps after login in to [Google Cloud Platform](https://cloud.google.com/).
 
@@ -60,6 +60,8 @@ After downloading the key it is required to add it to vcli, to use it for deploy
 vcli cloud new gcp /path/tp/key.json
 ```
 
+!> VCLI's built-in editor currently only supports Mac and Linux machines.
+
 This process only has to be executed once to setup the target. After that, it can be used for all future deployments to this target. The deployment can be initialized with a simple **cloud upload** command. The application to deploy can be either a binary or a **.vorteil** package.
 
 **Example (Command and output):**
@@ -87,6 +89,6 @@ During those deployment steps, vcli converts the uploaded package to an image, w
 
 ![alt text](/publish/gcp4.png "images list")
 
-After these steps new machines based on this image can be created. 
+After these steps new machines based on this image can be created.
 
 ![alt text](/publish/gcp5.png "select custom image")
