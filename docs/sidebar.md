@@ -15,11 +15,12 @@
 	- [Networks](vcli/network.md)
 	- [Commands](vcli/cmds.md)
 - Language Support
-	- [Supported Languages](lang/general.md)
+	- [Supported Languages](lang/general.md?id=supported-languages)
 	- [Environments](/lang/general?id=managing-environments)
 - Publish
-	- [VMWare](publish/vmware.md)
-	- [GCP](publish/gcp.md)
+	- [Local Export](publish/publish.md?id=local-export)
+	- [VMWare](publish/publish.md?id=vmware-esxi)
+	- [Google Cloud](publish/publish.md?id=goolge-cloud)
 - Debugging
 	- [GDB](debug/gdb.md)
 	- [Mounting & Logging](debug/log.md)
