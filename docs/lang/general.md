@@ -3,7 +3,7 @@
 
 vorteil.io's aim is to run applications without making changes to them ,so in general moving applications on vorteil.io should be without risk and too much overhead.
 
-To minimize the effort vorteil.io has some tools to setup a project for a certain set of languages. If the languages you want to use, is not in the list of supported languages, a [project can be setup](../vcli/conf) and saved as a [template](lang/general?id=project-templates) for future use.  
+To minimize the effort vorteil.io has some tools to setup a project for a certain set of languages. If the languages you want to use, is not in the list of supported languages, a [project can be setup](/vcli/conf) and saved as a [template](/lang/general?id=managing-environments) for future use.  
 
 The supported languages are:
 
