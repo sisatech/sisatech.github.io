@@ -1,7 +1,7 @@
 # Site settings
-title: Vorteil.io
+title: vorteil.io
 email: info@sisa-tech.com
-url: https://sisatech.github.io
+url: https://www.vorteil.io
 description: "Quickly build apps as independent, bootable virtual machines for rapid deployment and immutable infrastructure."
 
 # Color settings (hex-codes without the leading hash-tag)
