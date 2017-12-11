@@ -17,3 +17,20 @@ access applications within the local repository by prefixing the location with
 "apps:", like "apps:sisatech/helloworld". If a specific version of the app is
 required, the location can have an optional suffix containing the reference ID,
 like so: "apps:sisatech/helloworld:a9c9c21a0339".
+
+## Example usage:
+
+List the contents of the local vcli repository:
+```
+vcli apps list
+```
+
+Import a vorteil package to the repository:
+```
+vcli import <PATH_TO_VORTEIL_PACKAGE>
+```
+
+Tag an existing app version:
+```
+vcli apps tag <PATH_TO_STORED_APP> <TAG>
+```

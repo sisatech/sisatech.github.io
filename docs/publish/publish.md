@@ -12,7 +12,7 @@ Different hypervisors need different formats, so basically vorteil.io is support
 
 !> Stream-optimized VMDKs are read-only disks!
 
-To use the export functionality, simple select a **.vorteil** package or point to an existing binary and execute the **build** command:
+To use the export functionality, simply select a **.vorteil** package or point to an existing binary and execute the **build** command:
 
 **Example (Export package as vmdk)**:
 ```vcli
@@ -85,7 +85,7 @@ After downloading the key it is required to add it to vcli, to use it for deploy
 
 **Example:**
 ```vcli
-vcli cloud new gcp /path/tp/key.json
+vcli cloud new gcp /path/to/key.json
 ```
 
 !> VCLI's built-in editor currently only supports Mac and Linux machines.
@@ -113,7 +113,7 @@ Uploading image
  10.00 MiB / 12.70 MiB [=================================>---------]  78.73% 32s
 ```
 
-During those deployment steps, vcli converts the uploaded package to an image, which can be used to spin up new machines. The name of the image is a hash value and it can be seen during the upload process. In the former example, the image name would be "862216640".
+During those deployment steps, vcli converts the uploaded package to an image, which can be used to spin up new machines. The name of the image is a hash value and it can be seen during the upload process. In the former example, the image name would be "v862216640".
 
 ![alt text](/publish/gcp4.png "images list")
 

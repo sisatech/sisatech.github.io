@@ -80,6 +80,9 @@ vfs:
   # is supported.
   filesystem: ext2
 
+# # Inodes is the minimum number of inodes the filesystem should support.
+  inodes: 16384
+
 # # Define special rules when for the virtual filesystem to enact when the
   # application attempts to write to a named file. This is a easy, for example,
   # forward the data sent to a log file out to a network logging server.
