@@ -1,8 +1,18 @@
 # What is vorteil.io?
 
-vorteil.io is a microkernel running your applications unchanged preparing them
-for microservices and immutable infrastructure. Try it out with our easy-to-follow [getting started guide](/quick/first_run)
+The idea of vorteil is to run your applications in a virtual machine with the following concepts in mind:
 
+1. Immutable Infrastructure
+
+Vorteil's command line interface (VCLI) generates deployable packages, which can not be modified once deployed. During the build process the owner of a package has full control over all files and dependencies.
+
+2. Microservice Architecture
+
+Vorteil is following a unikernel-like approach in a sense that it uses a single address space and can run only
+one application at a time (multiple threads are possible of course). This means that each service runs in it's own small, isolated virtual machine.
+These machines can be orchestrated to form a full application.
+
+Try it out with the easy-to-follow [getting started guide](/quick/first_run)
 
 <center>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=NKjCnMLd-Rs
